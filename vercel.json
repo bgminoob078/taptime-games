@@ -1,8 +1,0 @@
-"builds": [
-    {
-      "src": "dist/public/**/*",
-      "use": "@vercel/static"
-    }
-  ],
-  "outputDirectory": "dist/public"
-}
