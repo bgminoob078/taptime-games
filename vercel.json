@@ -1,4 +1,8 @@
-{
-  "buildCommand": "npm install && npm run build",
+"builds": [
+    {
+      "src": "dist/public/**/*",
+      "use": "@vercel/static"
+    }
+  ],
   "outputDirectory": "dist/public"
 }
